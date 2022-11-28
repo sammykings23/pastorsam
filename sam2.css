@@ -1,0 +1,83 @@
+html{
+    background-color: aquamarine;
+}
+h1{
+    background-image: linear-gradient(red,yellow,green,black);
+}
+.hi{
+    background-color:black;color: red;
+}
+table{
+    color: white;
+    margin: 5px;
+    height: auto;
+    width: auto;
+}
+#p1{
+    height: 100px;
+    width: 500px;
+    background-color: red;
+    font-size: 25px;
+    text-align:center ;
+    margin: 0%;
+    animation: sam;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sam {
+    0%{font-size: 25px;}
+    50%{font-size: 100px;}
+    100%{font-size: 25px;}
+    
+}
+ul{
+    list-style-type: none;
+    padding: opx;
+    margin: opx;
+    overflow: hidden;
+    background-color: grey;
+}
+li a{
+    float: left;
+    display: black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    min-width: 60px;
+}
+li a:hover{
+    background-color: black;
+    animation: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    50%{text-shadow: 0px 0px 10px;color: yellow;}
+}
+#p3{
+   
+}
+.contented{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: green;
+    flex-direction: column-reverse;
+    will-change: 500px;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+.contented  div{ 
+    border: 5px solid;
+    color: rgb(150, 5, 5);
+    height:100px ;
+    width: 500px;
+    background-color: grey;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin: opx;
+  
+}
+    

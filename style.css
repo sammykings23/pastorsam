@@ -1,0 +1,35 @@
+#p1{
+    width:100px;
+    background-color: greenyellow;
+    text-align: center;
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    margin:10px;
+    animation: color;
+    animation:rotateAnimation;
+    animation:translate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+   0%{background-color: greenyellow;color: red;}
+    20%{background-color: blue;color: black ;}
+    40%{background-color: rgb(61, 172, 9);color: rgb(183, 179, 184);}
+    60%{background-color: rgb(255, 0, 170);color: black ;}
+    80%{background-color: rgb(26, 31, 19);color: rgb(104, 78, 78);}
+   100%{background-color: rgb(0, 0, 255);color: goldenrod ;}
+    
+    
+}
+@keyframes rotateAnimation {
+    100%{transform:rotatey(500deg)}
+    
+}
+@keyframes translate{
+    50%{transform: translate(100px,100px);}
+}
+@keyframes scale  {
+    100% {( transform:scale(0.5,0.4))};
+    
+}
